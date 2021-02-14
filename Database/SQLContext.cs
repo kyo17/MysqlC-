@@ -2,6 +2,7 @@
 using APIElectron.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using MysqlC_.Models;
 
 namespace APIElectron.Database
 {
@@ -21,8 +22,16 @@ namespace APIElectron.Database
                 entity.Property(x => x.email).IsRequired();
                 entity.Property(x => x.age).IsRequired();
             });
+            model.Entity<Custumer>(entity =>
+            {
+                entity.HasKey(y => y.idCustumer);
+                entity.Property(y => y.name);
+                entity.Property(y => y.phone);
+                entity.Property(y => y.zip);
+            });
         }
        
         public DbSet<User> Users { get; set; }
+        public DbSet<Custumer> Custumers { get; set; }
     }
 }
