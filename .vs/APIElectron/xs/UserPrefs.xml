@@ -1,0 +1,28 @@
+﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{192A0D84-86E3-4778-9BAF-2936611CE0F8}|Default">
+  <MonoDevelop.Ide.ItemProperties.APIElectron PreferredExecutionTarget="/Applications/Firefox.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/Custumer.cs">
+    <Files>
+      <File FileName="Database/SQLContext.cs" Line="30" Column="45" />
+      <File FileName="Models/Custumer.cs" Line="4" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="APIElectron" expanded="True">
+            <Node name="APIElectron" expanded="True">
+              <Node name="Models" expanded="True">
+                <Node name="Custumer.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

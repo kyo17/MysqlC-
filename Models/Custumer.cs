@@ -1,3 +1,6 @@
+using System;
+using System.ComponentModel.DataAnnotations;
+
 namespace MysqlC_.Models
 {
     public class Custumer
